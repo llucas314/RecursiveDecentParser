@@ -1,0 +1,28 @@
+Window "Test2" (400, 200) Layout Grid (2, 2, 5, 5):
+        Panel Layout Flow:
+            Label "Radio_Buttons";
+            Panel Layout Grid (1, 2, 5, 5):
+                Group
+                    Radio "Left_RB";
+                    Radio "Right_RB";
+                End;
+            End;
+        End;
+        Panel Layout Flow:
+            Label "Text";
+            Textfield 10;
+        End;
+        Panel Layout Flow:
+            Button "1";
+            Button "2"
+            Button "3";
+            Button "4";
+        End;
+        Panel Layout Flow:
+            Group
+                Radio "RB_1";
+                Radio "RB_2";
+                Radio "RB_3";
+            End;
+        End;
+End.
